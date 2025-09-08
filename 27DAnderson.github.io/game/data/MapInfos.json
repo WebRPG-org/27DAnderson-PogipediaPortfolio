@@ -1,0 +1,21 @@
+[
+null,
+{"id":1,"expanded":true,"name":"Overworld (0, 0)","order":1,"parentId":0,"scrollX":811,"scrollY":449.5},
+{"id":2,"expanded":false,"name":"Inside House","order":2,"parentId":1,"scrollX":540.6666666666666,"scrollY":305,"quick":false},
+{"id":3,"expanded":true,"name":"Overworld (1, 0)","order":4,"parentId":0,"scrollX":648.6666666666666,"scrollY":359.6666666666667,"quick":false},
+{"id":4,"expanded":true,"name":"Overworld (-1, 0)","order":5,"parentId":0,"scrollX":755.3333333333334,"scrollY":457.6666666666667,"quick":false},
+{"id":5,"expanded":true,"name":"Overworld (0, -1)","order":9,"parentId":0,"scrollX":811,"scrollY":457.5,"quick":false},
+{"id":6,"expanded":false,"name":"Inside Shed","order":3,"parentId":1,"scrollX":540.6666666666666,"scrollY":305,"quick":false},
+{"id":7,"expanded":false,"name":"Inside Mine","order":7,"parentId":4,"scrollX":973.1999999999999,"scrollY":549,"quick":false},
+{"id":8,"expanded":false,"name":"Overworld (-2, 0)","order":8,"parentId":0,"scrollX":811,"scrollY":457.5,"quick":false},
+{"id":9,"expanded":false,"name":"Overworld (1, -1)","order":13,"parentId":0,"scrollX":973.1999999999999,"scrollY":539.4,"quick":false},
+{"id":10,"expanded":false,"name":"Inside Castle House","order":6,"parentId":4,"scrollX":973.1999999999999,"scrollY":539.4,"quick":false},
+{"id":11,"expanded":false,"name":"Overworld (-1, 1)","order":14,"parentId":0,"scrollX":811,"scrollY":457.5,"quick":false},
+{"id":12,"expanded":false,"name":"BPass","order":11,"parentId":0,"scrollX":1308,"scrollY":771,"quick":false},
+{"id":13,"expanded":false,"name":"BPass Dungeon 1","order":12,"parentId":12,"scrollX":2616,"scrollY":1956,"quick":false},
+{"id":14,"expanded":false,"name":"Inside Dungeon","order":10,"parentId":5,"scrollX":811,"scrollY":457.5,"quick":false},
+{"id":15,"expanded":true,"name":"atown","order":16,"parentId":0,"scrollX":973.1999999999999,"scrollY":539.4,"quick":false},
+{"id":16,"expanded":false,"name":"fpass","order":15,"parentId":0,"scrollX":973.1999999999999,"scrollY":539.4,"quick":false},
+{"id":17,"expanded":false,"name":"Poker House","order":17,"parentId":15,"scrollX":973.1999999999999,"scrollY":539.4,"quick":false},
+{"id":18,"expanded":false,"name":"Bank","order":18,"parentId":15,"scrollX":540.6666666666666,"scrollY":319,"quick":false}
+]

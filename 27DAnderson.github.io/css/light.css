@@ -1,0 +1,76 @@
+body {
+    background-color: #fff;
+}
+
+#toolbar {
+    background-color: #333;
+}
+
+#toolbar li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+#toolbar li a:hover {
+    background-color: #111;
+}
+
+#toolbar li:last-child {
+    border-right: none;
+    border-left: 1px solid #fff;
+}
+
+#active {
+    background-color: #f4511e; /*w3schools green: #04AA6D;*/
+}
+
+#active a:hover {
+    background-color: #ce3d10 !important;
+}
+
+p, h1, h2, h3, h4, h5, h6 li {
+    color: #000;
+}
+
+.pfp {
+    display: block;
+    margin: 55px auto;
+    width: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #333;
+}
+
+#hobbies {
+    width: 625px;
+    background-color: #32cd32;
+    margin-bottom: 20px;
+    padding-left: 10px
+}
+
+#likes {
+    background-color: #E9967A;
+    padding-left: 10px;
+}
+
+#likes a {
+    color: darkblue;
+}
+
+#likes a:hover {
+    color: darkviolet;
+}
+
+.intro {
+    background-color: #7fffd4;
+}
+
+#newPetsText {
+    background-color: #32cd32;
+    width: 100px;
+    padding-left: 10px;
+}
