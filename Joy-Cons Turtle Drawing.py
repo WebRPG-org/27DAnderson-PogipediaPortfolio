@@ -1,0 +1,376 @@
+import turtle
+
+def buttons(x, y, direction):
+    t.penup()
+    t.goto(x, y)
+    t.setheading(direction)
+    t.forward(23)
+    t.pendown()
+    t.setheading(0)
+    t.begin_fill()
+    t.circle(12)
+    t.end_fill()
+
+t = turtle.Turtle()
+
+#triggers
+t.penup()
+t.color("black")
+t.pensize(6)
+t.goto(50, 183)
+t.forward(26.5)
+t.pendown()
+t.forward(35)
+for i in range(55):
+    t.right(1)
+    t.forward(1.03)
+    
+t.penup()
+t.goto(-50, 182.5)
+t.setheading(180)
+t.forward(26.5)
+t.pendown()
+t.forward(35)
+for i in range(55):
+    t.left(1)
+    t.forward(1.03)
+
+#blue base
+t.pensize(1)
+t.color("#00B4FF")
+t.penup()
+t.goto(-50, -180)
+t.pendown()
+t.setheading(90)
+t.begin_fill()
+t.forward(360)
+t.left(90)
+t.forward(60)
+for i in range(90):
+    t.forward(1)
+    t.left(1)
+t.forward(248)
+for i in range(90):
+    t.forward(1)
+    t.left(1)
+t.forward(60)
+t.end_fill()
+
+#red base
+t.color("#FF1E1E")
+t.penup()
+t.goto(50, -180)
+t.pendown()
+t.setheading(90)
+t.begin_fill()
+t.forward(360)
+t.right(90)
+t.forward(60)
+for i in range(90):
+    t.forward(1)
+    t.right(1)
+t.forward(248)
+for i in range(90):
+    t.forward(1)
+    t.right(1)
+t.forward(60)
+t.end_fill()
+
+#plus and minus buttons
+t.penup()
+t.color("black")
+t.pensize(5)
+t.goto(-80, 160)
+t.setheading(0)
+t.pendown()
+t.forward(15)
+
+t.penup()
+t.goto(80, 160)
+t.setheading(180)
+t.pendown()
+t.forward(15)
+
+t.penup()
+t.setheading(270)
+t.goto(72.5, 167.5)
+t.pendown()
+t.forward(15)
+
+#joysticks
+t.pensize(1)
+t.penup()
+t.goto(-133, 85)
+t.pendown()
+t.begin_fill()
+t.circle(25)
+t.end_fill()
+
+t.penup()
+t.goto(83, -20)
+t.pendown()
+t.begin_fill()
+t.circle(25)
+t.end_fill()
+
+#buttons
+
+t.color("#282828")
+buttons(-108, -30, 90)
+buttons(-108, -30, 0)
+buttons(-108, -30, 180)
+buttons(-108, -30, 270)
+
+buttons(108, 76, 90)
+buttons(108, 76, 0)
+buttons(108, 76, 180)
+buttons(108, 76, 270)
+
+#special buttons
+
+t.penup()
+t.goto(-80, -85)
+t.setheading(0)
+t.begin_fill()
+t.forward(5)
+t.pendown()
+t.left(90)
+t.forward(10)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(10)
+t.end_fill()
+t.color("#282828")
+
+t.penup()
+t.goto(84, -96)
+t.setheading(0)
+t.pendown()
+t.begin_fill()
+t.circle(11.5)
+t.end_fill()
+
+#letter details
+
+t.color("white")
+t.penup()
+t.width(3)
+t.goto(108, 88)
+t.setheading(0)
+t.forward(23.5)
+t.setheading(270)
+t.forward(10)
+t.pendown()
+t.write("A",align="center", font=("Arial", 12, "bold"))
+
+t.penup()
+t.width(3)
+t.goto(108, 88)
+t.setheading(180)
+t.forward(24)
+t.setheading(0)
+t.forward(2)
+t.setheading(270)
+t.forward(11)
+t.pendown()
+t.write("Y",align="center", font=("Arial", 12, "bold"))
+
+t.penup()
+t.width(3)
+t.goto(108, 88)
+t.setheading(270)
+t.forward(23)
+t.setheading(0)
+t.forward(1)
+t.setheading(270)
+t.forward(10)
+t.pendown()
+t.write("B",align="center", font=("Arial", 12, "bold"))
+
+t.penup()
+t.width(3)
+t.goto(108, 88)
+t.setheading(90)
+t.forward(24)
+t.setheading(0)
+t.forward(1)
+t.setheading(270)
+t.forward(11)
+t.pendown()
+t.write("X",align="center", font=("Arial", 12, "bold"))
+
+#other details
+
+t.setheading(0)
+t.color("black")
+t.penup()
+t.goto(-85, -91)
+t.pendown()
+t.begin_fill()
+t.circle(6)
+t.end_fill()
+
+t.color("#E9E9E9")
+t.penup()
+t.goto(82.5, -73)
+t.pensize(3)
+t.pendown()
+for i in range(72):
+    t.forward(1)
+    t.right(5)
+
+#home house
+
+t.penup()
+t.color("black")
+t.goto(79, -89)
+t.setheading(90)
+t.pendown()
+t.begin_fill()
+t.forward(6)
+t.right(45)
+t.forward(6)
+t.right(90)
+t.forward(6)
+t.right(45)
+t.forward(6)
+t.right(90)
+t.forward(8)
+t.end_fill()
+
+t.penup()
+t.color("#282828")
+t.goto(81, -87)
+t.pensize(1)
+t.setheading(0)
+t.pendown()
+t.begin_fill()
+t.forward(3)
+t.left(90)
+t.forward(3)
+t.left(90)
+t.forward(3)
+t.left(90)
+t.forward(3)
+t.end_fill()
+
+#button arrows
+t.color("black")
+
+t.penup()
+t.goto(-113, -18)
+t.setheading(90)
+t.forward(20)
+t.right(90)
+t.pendown()
+t.begin_fill()
+for i in range(2):
+    t.forward(10)
+    t.left(120)
+t.forward(10)
+t.end_fill()
+
+t.penup()
+t.goto(-113, -18)
+t.setheading(0)
+t.forward(25)
+t.right(90)
+t.forward(-5)
+t.pendown()
+t.begin_fill()
+for i in range(2):
+    t.forward(10)
+    t.left(120)
+t.forward(10)
+t.end_fill()
+
+t.penup()
+t.goto(-113, -18)
+t.setheading(270)
+t.forward(20)
+t.right(90)
+t.forward(-10)
+t.pendown()
+t.begin_fill()
+for i in range(2):
+    t.forward(10)
+    t.left(120)
+t.forward(10)
+t.end_fill()
+
+t.penup()
+t.goto(-113, -18)
+t.setheading(180)
+t.forward(15)
+t.right(90)
+t.forward(-5)
+t.pendown()
+t.begin_fill()
+for i in range(2):
+    t.forward(10)
+    t.left(120)
+t.forward(10)
+t.end_fill()
+
+#joystick details
+t.speed(3)
+t.color("#282828")
+t.pensize(5)
+t.penup()
+t.goto(-108.45, 82.7)
+t.setheading(90)
+t.forward(25)
+t.setheading(0)
+for i in range(2):
+        t.forward(1)
+        t.right(3)
+t.pendown()
+for i in range(4):
+
+    t.penup()
+    for i in range(5):
+        t.forward(1)
+        t.right(2.6)
+    t.pendown()
+    for i in range(24):
+        t.forward(1)
+        t.right(2.6)
+    t.penup()
+    for i in range(5):
+        t.forward(1)
+        t.right(2.6)
+
+t.penup()
+t.goto(107, -22.35)
+t.setheading(90)
+t.forward(25)
+t.setheading(0)
+for i in range(2):
+        t.forward(1)
+        t.right(2)
+t.pendown()
+for i in range(4):
+
+    t.penup()
+    for i in range(5):
+        t.forward(1)
+        t.right(2.6)
+    t.pendown()
+    for i in range(24):
+        t.forward(1)
+        t.right(2.6)
+    t.penup()
+    for i in range(5):
+        t.forward(1)
+        t.right(2.6)
+
+t.penup()
+t.goto(0, 0)
+t.hideturtle()
+
+turtle.done()
